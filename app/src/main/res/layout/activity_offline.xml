@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1C1C1C">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_baseline_wifi_off_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="You are offline"
+            android:letterSpacing=".02"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Check your internet connection and try again !!"
+            android:letterSpacing=".02"
+            android:textColor="#AFAEAE"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Retry"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
